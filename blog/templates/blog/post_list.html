@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Dhakad Electrical</title>
+</head>
+<body>
+<p> Hurry up!!! last date for offers</p>
+<p>dgfhbjn</p>
+{% for post in posts %}
+<div>
+<p>Published date:: {{post.published_date}}</p>
+
+<a href="#">{{post.title}}</a>
+<p>{{post.text|linebreaksbr}}</p>
+	
+</div>
+{% endfor %}
+</body>
+</html>
